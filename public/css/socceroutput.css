@@ -1,0 +1,44 @@
+html{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+body
+{
+  color : white;
+  background-color : midnightblue
+}
+
+h1
+{
+  font-size : 80px;
+    text-align : center
+}
+
+.irc_mi
+{
+margin-left : 250px; 
+  margin-bottom: 30px
+}
+
+.clubs
+{
+  font-size : 20px;
+  
+}
+.camps
+{
+  font-size : 20px
+}
+
+h3
+{
+  font-size : 36px;
+  text-align : center
+}
+
+.opportunities
+{
+  font-size : 28px; 
+  text-align : center
+}

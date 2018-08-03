@@ -4,30 +4,114 @@
     <title>Individual Sport Quiz</title>
       <link rel="stylesheet" type="text/css" href="css/styles.css">
   </head>
+   <div class="topnav">
+     <a href ="./" > HOME</a>
+     <a href ="./basketball" > BASKETBALL</a>
+     <a href ="./soccer" > SOCCER </a>
+     <a href ="./tennis" > TENNIS </a>
+     <a href ="./howtohelp" > HOW YOU CAN HELP</a>
+     <a href ="./quiz" > QUIZ</a>
+     </div>
+     
   <body>
+    
+        <style>
+      
+/*This is your CSS file */
+         html{
+  margin-left: auto; 
+  margin-right: auto; 
+         }
+
+body{
+    background-image: url("https://www.freevector.com/uploads/vector/preview/18263/Free-Pink-Background-Vector.jpg");
+    color: white; 
+    font-size: 30px;
+    font-family: merriweather; 
+}
+
+h1{text-align: center;
+    font-size: 100px;
+    font-family: blackroses; 
+}
+
+.header
+{
+    font-family: blackroses; 
+}
+
+.input
+{
+    text-align : center
+}
+
+h2{
+    text-align: center;
+font-size: 40px;
+font-family: merriweather; 
+    
+}
+.topnav {
+   overflow: hidden;
+   background-color: #EF4387; 
+  font-size:  51px;
+  font-family: blackroses;
+}
+
+
+/* Style the topnav links */
+.topnav a {
+   float: left;
+   display: block;
+   color: #FFEAEF;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+   background-color: #FFCAE0    ;
+   color: #EF4387;
+}
+
+    </style>
+    
+    
     <div class="container">
-      <h1 class="header">Individual Sport Quiz</h1>
+      <h1 class="header"> Individual Sport Quiz </h1>
 
      
      
       <form action="/results" method="post">
+        <center> 
       <h2>How would you rate your hand-eye coordination: low, medium, or high? High is the best!</h2>
+      
         <input type="radio" name="hand-eye" value="1">low<br>
         <input type="radio" name="hand-eye" value="2">medium<br>
-        <input type="radio" name="hand-eye" value="3">high
+        <input type="radio" name="hand-eye" value="3">high<br>
+        
         <h2>What is your best asset: strength, endurance, or finesse?</h2>
-        <input type="radio" name="asset" value="1">endurance<br>
         <input type="radio" name="asset" value="2">strength<br>
+        <input type="radio" name="asset" value="1">endurance<br>
         <input type="radio" name="asset" value="3">finesse<br>
+        
         <h2> Rate how much you like running: low, medium, or high? High means you like running! </h2>
-          <input type="radio" name="running" value="1">high<br>
+        
           <input type="radio" name="running" value="2">low<br>
           <input type="radio" name="running" value="3">medium<br>
+          <input type="radio" name="running" value="1">high<br>
+          
+        
       
           <button type = "submit" class="new"> Let's play! </button>
+          </center>
       </form>
     </div>
   </div>
 
+ <br>
+
   </body>
+  
 </html>

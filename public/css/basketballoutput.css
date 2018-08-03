@@ -1,0 +1,19 @@
+html{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+body{background-color:midnightblue}
+body{color:white}
+
+h1{text-align: center;font-size: 80px;font-family: merriweather}
+
+
+h2{text-align: center;font-size: 45px;font-family: merriweather}
+
+#gif{padding:280px; height: 400px}
+p{text-align: center}
+p{font-family: merriweather}
+p{font-size: 30px}
+li{text-align: center}
+li{font-family: merriweather}
+li{font-size: 34px}

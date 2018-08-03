@@ -1,2 +1,58 @@
 
 /*This is your CSS file */
+         html{
+  margin-left: auto; 
+  margin-right: auto; 
+         }
+
+body{
+    background-image: url("https://www.freevector.com/uploads/vector/preview/18263/Free-Pink-Background-Vector.jpg");
+    color: white; 
+    font-size: 30px;
+    font-family: blackroses; 
+}
+
+h1{text-align: center;
+    font-size: 90px;
+    font-family: blackroses; 
+}
+
+.header
+{
+    font-family: blackroses; 
+}
+
+.input
+{
+    text-align : center
+}
+
+h2{
+    text-align: center;
+font-size: 40px;
+font-family: blackroses
+    
+}
+.topnav {
+   overflow: hidden;
+   background-color: #EF4387; 
+  font-size:  46px;
+  font-family: blackroses;
+}
+
+
+/* Style the topnav links */
+.topnav a {
+   float: left;
+   display: block;
+   color: #FFEAEF;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+   background-color: #FFCAE0    ;
+   color: #EF4387;
+}

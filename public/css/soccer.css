@@ -1,0 +1,43 @@
+html{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+body {
+  background-color : midnightblue;
+    font-family : Merriweather;
+  color : white;
+  font-size :30px 
+}
+ h2{
+   text-align : center
+   
+ }
+.title
+{
+  text-align : center;
+  font-size : 80px
+}
+
+
+.pictures
+{
+  
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto; 
+}
+
+.cc
+{
+ display: block; 
+  margin-left: auto; 
+  margin-right: auto; 
+  
+}
+.turf
+{
+ display: block; 
+  margin-left: auto; 
+  margin-right: auto; 
+}

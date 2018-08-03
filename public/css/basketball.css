@@ -1,0 +1,27 @@
+html{
+  margin-left: 50px; margin-right: 50px}
+body{background-color:midnightblue; 
+     font-size :30px; 
+    font-family: merriweather
+}
+body{color:white}
+h1{text-align: center}
+h1{font-size: 80px}
+h1{font-family: merriweather}
+h2{text-align: left}
+h2{font-size: 35px}
+h2{font-family: merriweather}
+h3{text-align: left}
+h3{font-size: 35px}
+h3{font-family: merriweather}
+h2{word-spacing:10px}
+h3{word-spacing:10px}
+h4{font-size:30px}
+h4{text-align: center}
+h4{font-family: merriweather}
+h4{word-spacing:10px}
+#ball{padding-left:400px}
+#WNBA{padding-left:400px}
+h5{font-size:12px}
+h5{text-align: center}
+h5{font-family: merriweather}

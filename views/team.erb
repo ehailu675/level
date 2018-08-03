@@ -6,13 +6,85 @@
     <title>Individual Sport Quiz</title>
       <link rel="stylesheet" type="text/css" href="css/styles.css">
   </head>
+   <div class="topnav">
+     <a href ="./" > HOME</a>
+     <a href ="./basketball" > BASKETBALL</a>
+     <a href ="./soccer" > SOCCER </a>
+     <a href ="./tennis" > TENNIS </a>
+     <a href ="./howtohelp" > HOW YOU CAN HELP</a>
+     <a href ="./quiz" > QUIZ</a>
+     </div>
+  
   <body>
+    
+    <style>
+      
+/*This is your CSS file */
+         html{
+  margin-left: auto; 
+  margin-right: auto; 
+         }
 
-      <h1 class="header">Individual Sport Quiz</h1>
+body{
+    background-image: url("https://www.freevector.com/uploads/vector/preview/18263/Free-Pink-Background-Vector.jpg");
+    color: white; 
+    font-size: 30px;
+    font-family: merriweather; 
+}
+
+h1{text-align: center;
+    font-size: 100px;
+    font-family: blackroses; 
+}
+
+.header
+{
+    font-family: blackroses; 
+}
+
+.input
+{
+    text-align : center
+}
+
+h2{
+    text-align: center;
+font-size: 40px;
+font-family: merriweather; 
+    
+}
+.topnav {
+   overflow: hidden;
+   background-color: #EF4387; 
+  font-size:  51px;
+  font-family: blackroses;
+}
+
+
+/* Style the topnav links */
+.topnav a {
+   float: left;
+   display: block;
+   color: #FFEAEF;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+   background-color: #FFCAE0    ;
+   color: #EF4387;
+}
+
+    </style>
+
+      <h1 class="header">Team Sport Quiz</h1>
 
      
      
       <form action="/res" method="post">
+        <center>
       <h2>Do you prefer playing indoors or outdoors?</h2>
         <input type="radio" name="place" value="1">indoors<br>
         <input type="radio" name="place" value="2">outdoors<br>
@@ -20,27 +92,25 @@
         <input type="radio" name="hands_feet" value="1">hands<br>
         <input type="radio" name="hands_feet" value="2">feet<br>
         <h2> What season do you like playing in? </h2>
-          <input type="radio" name="running" value="1">Winter<br>
-          <input type="radio" name="running" value="2">Spring<br>
+          <input type="radio" name="running" value="1">winter<br>
+          <input type="radio" name="running" value="2">spring<br>
+          </center>
         <!-- <h2> How experienced are you with baking?</h2>
 <br> -->
 
           <!-- <input type="radio" name="skill" value="A" >I'm an expert
         <input type="radio" name="skill" value="B"> I've baked a bit <br>
           <input type="radio" name="skill" value="C">I've never baked anything really
-            <br> -->
-          <button type = "submit" class="new"> Let's play! </button>
+            <!--<br>-->
+            <!--<br>-->
+            <!--<br>-->
+         <center> <button type = "submit" class="new"> Let's play! </button></center>
       </form>
     </div>
   </div>
 
-  
+ <br>
         
     </body>
-    
-    
-    
-    
-    
     
 </html>

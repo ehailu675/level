@@ -1,6 +1,7 @@
 require 'bundler'
 Bundler.require
 require_relative 'models/questions'
+require_relative 'models/team'
 
 class MyApp < Sinatra::Base
 
@@ -37,5 +38,54 @@ class MyApp < Sinatra::Base
    get '/indiv.erb' do
   erb :indiv
  end 
+ 
+
+
+
+
+
+
+
+post  '/results' do
+   answers = params.values
+   @total= 0
+   answers.each do |answer|
+     @total += answer.to_i
+   end
+   puts @total
+
+   @indivi = individualquiz(@total)
+   if @indivi == "track"
+     erb :xc_output
+   elsif @indivi == "gym"
+     erb :gymnasticsoutput
+   elsif @indivi == "tennisoutput"
+     erb :tennisoutput
+  end
+end
+
+
+
+
+
+
+post  '/res' do
+   answers = params.values
+   @total= 0
+   answers.each do |answer|
+     @total += answer.to_i
+   end
+   puts @total
+   
+   @team = teamquiz(@total)
+   if @team == "basketball"
+     erb :basketballoutput
+   elsif @team == "soccer"
+    erb :socceroutput
+   
+end
+
 
 end
+end
+
