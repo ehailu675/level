@@ -1,11 +1,13 @@
 
 /*This is your CSS file */
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+   @import url('https://fonts.googleapis.com/css?family=Syncopate');
+            
          html{
   margin-left: auto; 
   margin-right: auto; 
          }
-@import url('https://fonts.googleapis.com/css?family=Merriweather');
-   @import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+
 body{
     background-image: url("https://www.freevector.com/uploads/vector/preview/18263/Free-Pink-Background-Vector.jpg");
     color: white; 
