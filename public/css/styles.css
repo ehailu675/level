@@ -4,22 +4,23 @@
   margin-left: auto; 
   margin-right: auto; 
          }
-
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+   @import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
 body{
     background-image: url("https://www.freevector.com/uploads/vector/preview/18263/Free-Pink-Background-Vector.jpg");
     color: white; 
     font-size: 30px;
-    font-family: blackroses; 
+    font-family: 'Syncopate'; 
 }
 
 h1{text-align: center;
     font-size: 90px;
-    font-family: blackroses; 
+    font-family: 'Syncopate'; 
 }
 
 .header
 {
-    font-family: blackroses; 
+    font-family: 'Syncopate'; 
 }
 
 .input
@@ -30,14 +31,14 @@ h1{text-align: center;
 h2{
     text-align: center;
 font-size: 40px;
-font-family: blackroses
+font-family: 'Syncopate'
     
 }
 .topnav {
    overflow: hidden;
    background-color: #EF4387; 
   font-size:  46px;
-  font-family: blackroses;
+  font-family: 'Syncopate';
 }
 
 
